@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="px-4 py-6 border-2  bg-white shadow w-full fixed  xl:px-32 lg:px-24 md:px-24">
+        <div class="px-4 py-6 border-2 z-10 bg-white shadow w-full fixed  xl:px-32 lg:px-24 md:px-24">
             <div class="flex justify-between items-center">
                 <div class="flex items-center gap-2">
                     <div class="text-xl  font-Poppinsss font-bold text-gray-800">
