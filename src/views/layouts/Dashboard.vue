@@ -1,8 +1,9 @@
 <template>
     <div>
-        <main>
-            <section class=" bg-animation">
-                <div class="px-4 text-gray-700 xl:px-32 lg:px-24 md:px-24 pt-32 pb-16">
+        <main class="bg-white">
+            <!-- section header -->
+            <section class="bg-animation">
+                <div class="px-4 bg-[#fffaf6] text-gray-700 xl:px-32 lg:px-24 md:px-24 pt-36 pb-16">
                     <div class="grid lg:grid-cols-1 md:grid-cols-1 sm:grid-cols-1">
                         <div class="flex justify-center items-center">
                             <div
@@ -10,8 +11,9 @@
                                 <div class="w-full py-4">
                                     <div class="text-left">
                                         <div
-                                            class="xl:text-2xl font-Poppinsss  py-1 lg:text-2xl text-4xl text-center xl:text-left lg:text-left font-bold w-full">
-                                            Front-End
+                                            class="xl:text-2xl font-Poppinsss py-1 lg:text-2xl text-4xl text-center xl:text-left lg:text-left font-bold w-full">
+                                            <!-- Front-End -->
+                                            Full-Stack
                                         </div>
                                         <div
                                             class="xl:text-5xl py-1 lg:text-5xl text-4xl text-center xl:text-left lg:text-left font-bold w-full font-Poppinsss">
@@ -19,9 +21,9 @@
                                         </div>
                                         <div class="py-2">
                                             <div class="font-NunitoSans text-lg text-center xl:text-left lg:text-left">
-                                                Hi, I'm Phiro Eng. A Front-End Web Developer. Learning new lessons is my
-                                                favorite thing, modern teachnologies,
-                                                <br>
+                                                Hi, I'm Phiro Eng. A Full-Stack Web Developer. Learning
+                                                new lessons is my favorite thing, modern teachnologies,
+                                                <br />
                                             </div>
                                         </div>
                                         <div
@@ -55,12 +57,11 @@
                                     </div>
                                 </div>
                                 <div class="w-full">
-                                    <div class="flex justify-center items-center w-full">
+                                    <div class="flex justify-center xl:justify-end lg:justify-end items-center w-full">
                                         <div>
-                                            <div
-                                                class="border-2 border-teal-300 transition -z-10 ease-in-out duration-300 hover:transform hover:-skew-y-0 -skew-y-3 p-1">
-                                                <img class="w-64 h-64 object-cover" src="../../assets/picture2.jpg"
-                                                    alt="photo1">
+                                            <div class="w-auto h-auto">
+                                                <img class="photo-header object-cover" src="../../assets/picture1.jpg"
+                                                    alt="photo1" />
                                             </div>
                                         </div>
                                     </div>
@@ -69,18 +70,19 @@
                         </div>
                     </div>
                     <div
-                        class="grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12  py-24 w-full xl:px-20 lg:px-20 md:px-10 font-NunitoSans">
+                        class="grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 sm:grid-cols-12 xl:py-24 lg:py-24 py-16 w-full xl:px-20 lg:px-20 md:px-10 font-NunitoSans">
                         <div class="xl:col-span-2 lg:col-span-2 md:col-span-12 sm:col-span-12 flex items-center w-full">
                             <div
-                                class="capitalize w-full xl:border-r-2 xl:border-gray-700 text-lg font-semibold xl:text-left lg:text-left">
+                                class="capitalize w-full xl:border-r-2 xl:border-gray-500 lg:border-r-2 lg:border-gray-500 text-center text-lg font-semibold xl:text-left lg:text-left">
                                 teachnologies
                             </div>
                         </div>
-                        <div class="flex items-center  px-4 xl:col-span-10 lg:col-span-10 md:col-span-12 sm:col-span-12">
-                            <div class="flex gap-2">
-                                <div>
+                        <div
+                            class="flex justify-center xl:justify-start lg:justify-start w-full items-center px-4 xl:col-span-10 py-4 xl:py-0 lg:py-0 lg:col-span-10 md:col-span-12 sm:col-span-12">
+                            <div class="flex justify-center gap-4 transition ease-in-out duration-300 flex-wrap">
+                                <div class="flex gap-4">
                                     <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none"
                                             viewBox="0 0 256 256">
                                             <rect width="256" height="256" fill="#E14E1D" rx="60" />
                                             <path fill="#fff"
@@ -91,10 +93,8 @@
                                                 d="M128 185.647L127.959 185.661L92.38 176.037L90.0012 149.435H57.9388L62.5236 200.716L127.951 218.888L128 218.874V185.647Z" />
                                         </svg>
                                     </span>
-                                </div>
-                                <div>
                                     <span>
-                                        <svg width="50" height="50" viewBox="0 0 256 256" fill="none"
+                                        <svg width="40" height="40" viewBox="0 0 256 256" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <rect width="256" height="256" rx="60" fill="#0277BD" />
                                             <path d="M53.7527 102.651L56.6155 134.593H128.096V102.651H53.7527Z"
@@ -108,10 +108,8 @@
                                                 fill="white" />
                                         </svg>
                                     </span>
-                                </div>
-                                <div>
                                     <span>
-                                        <svg width="50" height="50" viewBox="0 0 256 256" fill="none"
+                                        <svg width="40" height="40" viewBox="0 0 256 256" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <rect width="256" height="256" rx="60" fill="#F0DB4F" />
                                             <path
@@ -122,23 +120,21 @@
                                                 fill="#323330" />
                                         </svg>
                                     </span>
-                                </div>
-                                <div>
                                     <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none"
                                             viewBox="0 0 256 256">
-                                            <rect width="256" height="256" fill="#F4F2EE" rx="60" />
+                                            <rect width="256" height="256" fill="#242938" rx="60" />
                                             <path fill="#41B883"
                                                 d="M182 50H218L128 205.25L38 50H73.55H106.85L128 86L148.7 50H182Z" />
                                             <path fill="#41B883" d="M38 50L128 205.25L218 50H182L128 143.15L73.55 50H38Z" />
-                                            <path fill="#35495E"
+                                            <path fill="#fff"
                                                 d="M73.55 50L128 143.6L182 50H148.7L128 86L106.85 50H73.55Z" />
                                         </svg>
                                     </span>
                                 </div>
-                                <div>
+                                <div class="flex gap-4">
                                     <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none"
                                             viewBox="0 0 256 256">
                                             <rect width="256" height="256" fill="#242938" rx="60" />
                                             <path fill="url(#paint0_linear_2_119)" fill-rule="evenodd"
@@ -153,10 +149,8 @@
                                             </defs>
                                         </svg>
                                     </span>
-                                </div>
-                                <div>
                                     <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none"
                                             viewBox="0 0 256 256">
                                             <rect width="256" height="256" fill="#242938" rx="60" />
                                             <path fill="#81CD39"
@@ -165,10 +159,8 @@
                                                 d="M141.372 89.3351C152.117 88.6433 163.62 88.9255 173.289 94.2185C180.776 98.2754 184.926 106.789 185.058 115.106C184.849 116.227 183.676 116.846 182.605 116.769C179.488 116.765 176.369 116.812 173.252 116.748C171.929 116.799 171.161 115.58 170.995 114.411C170.099 110.431 167.928 106.49 164.183 104.57C158.433 101.692 151.767 101.837 145.497 101.897C140.92 102.139 135.998 102.536 132.12 105.227C129.143 107.266 128.239 111.382 129.301 114.697C130.303 117.077 133.05 117.845 135.299 118.553C148.248 121.94 161.97 121.602 174.672 126.059C179.931 127.876 185.075 131.409 186.875 136.915C189.23 144.295 188.198 153.115 182.947 159.039C178.689 163.914 172.488 166.568 166.303 168.009C158.075 169.844 149.536 169.891 141.18 169.076C133.323 168.18 125.146 166.116 119.081 160.763C113.894 156.259 111.361 149.241 111.612 142.469C111.672 141.325 112.811 140.527 113.907 140.621C117.046 140.596 120.186 140.587 123.325 140.626C124.58 140.536 125.509 141.62 125.574 142.802C126.152 146.593 127.577 150.573 130.884 152.82C137.264 156.937 145.271 156.655 152.577 156.77C158.63 156.502 165.425 156.421 170.364 152.42C172.97 150.138 173.742 146.32 173.038 143.036C172.275 140.263 169.374 138.971 166.883 138.126C154.1 134.083 140.224 135.55 127.565 130.977C122.425 129.161 117.455 125.727 115.481 120.447C112.726 112.974 113.988 103.73 119.789 98.0061C125.445 92.312 133.609 90.1192 141.372 89.3346V89.3351" />
                                         </svg>
                                     </span>
-                                </div>
-                                <div>
                                     <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none"
                                             viewBox="0 0 256 256">
                                             <rect width="256" height="256" fill="#242938" rx="60" />
                                             <path fill="#fff"
@@ -177,10 +169,8 @@
                                                 d="M28 124.5C29.1676 118.94 29.8905 112.879 31.5029 107.208C41.122 73.0129 80.3214 58.7788 107.288 79.9632C123.079 92.3624 127.027 109.933 126.249 129.727H37.2855C35.8399 165.09 61.3611 186.441 93.9994 175.543C99.2938 173.649 104.033 170.467 107.79 166.283C111.547 162.099 114.202 157.045 115.517 151.578C117.241 146.018 120.021 145.073 125.303 146.685C124.433 153.454 122.04 159.938 118.303 165.649C114.567 171.36 109.584 176.149 103.73 179.657C94.0573 184.947 82.96 187.042 72.0247 185.644C61.0894 184.246 50.8763 179.426 42.8457 171.873C34.9011 162.94 30.0973 151.654 29.1676 139.735C29.1676 137.845 28.4448 135.954 28.0556 134.175C28.0185 130.876 28 127.651 28 124.5ZM37.3967 122.109H117.853C117.352 96.4769 101.172 78.2951 79.5986 78.1283C55.5785 77.7947 38.3976 95.5873 37.3411 121.998L37.3967 122.109Z" />
                                         </svg>
                                     </span>
-                                </div>
-                                <div>
                                     <span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="none"
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="none"
                                             viewBox="0 0 256 256">
                                             <rect width="256" height="256" fill="#023430" rx="60" />
                                             <path fill="#10AA50"
@@ -197,25 +187,168 @@
                     </div>
                 </div>
             </section>
-            <!-- <section>
-                <div class="bg-teal-500">
-                    <div>hello</div>
-                    <div>hello</div>
+            <!-- section profile -->
+            <section>
+                <div class="xl:py-24 bg-white lg:py-24 md:py-24 py-24">
+                    <div class="xl:px-32 lg:px-24 md:px-24">
+                        <div class="xl:px-20 lg:px-20 md:px-10">
+                            <div class="grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12">
+                                <div
+                                    class="xl:col-span-4 lg:col-span-4 md:col-span-12 flex items-center justify-center xl:justify-start lg:justify-start">
+                                    <img src="../../assets/code.png"
+                                        class="rounded-3xl border w-[20rem] h-[20rem] object-cover" alt="" />
+                                </div>
+                                <div class="xl:col-span-8 lg:col-span-8 md:col-span-12">
+                                    <div class="xl:pl-6 lg:pl-6">
+                                        <div
+                                            class="text-lg py-4 xl:py-0 lg:py-0 font-Poppinsss text-[#ff4d30] xl:text-left lg:text-left text-center">
+                                            PROFILE
+                                        </div>
+                                        <div
+                                            class="text-3xl font-Poppinsss text-gray-700 capitalize xl:text-left lg:text-left text-center">
+                                            Infomation and details
+                                        </div>
+                                        <div
+                                            class="text-gray-700 text-lg py-2 font-NunitoSans px-4 xl:px-0 lg:px-0 xl:text-left lg:text-left text-center">
+                                            <p>
+                                                I'm graduated Infomation of teachnology, My major is Web Developer
+                                                I'm a Full-Stack Web Developer based in Cambodia, who is
+                                                always learning something new and sharing my knowledge
+                                                with others. I never stopped learning new programming
+                                                skills and languages. I have a good understanding of
+                                                responsive web design and also Back-End,
+                                            </p>
+                                        </div>
+                                        <div class="flex justify-center gap-14 py-10">
+                                            <span class="bg-[#ff4d30] opacity-20 w-2 h-2 rounded-lg"></span>
+                                            <span class="bg-[#ff4d30] opacity-20 w-2 h-2 rounded-lg"></span>
+                                            <span class="bg-[#ff4d30] opacity-20 w-2 h-2 rounded-lg"></span>
+                                            <span class="bg-[#ff4d30] opacity-20 w-2 h-2 rounded-lg"></span>
+                                            <span class="bg-[#ff4d30] opacity-20 w-2 h-2 rounded-lg"></span>
+                                            <span class="bg-[#ff4d30] opacity-20 w-2 h-2 rounded-lg"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- section project -->
+            <section>
+                <div class="xl:px-32 bg-white border-none lg:px-24 md:px-24 py-6 xl:py-4 lg:py-4">
+                    <div class="xl:px-20 lg:px-20 md:px-10">
+                        <div class="grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 rounded-lg">
+                            <div class="xl:col-span-12 lg:col-span-12 md:col-span-12">
+                                <div class="px-4 xl:px-0 lg:px-0 flex justify-center xl:justify-start lg:justify-start">
+                                    <div class="text-lg font-Poppinsss text-[#ff4d30]">
+                                        PROJECT
+                                    </div>
+                                </div>
+                                <div class="px-4 xl:px-0 lg:px-0 flex justify-center xl:justify-start lg:justify-start">
+                                    <div
+                                        class="text-3xl font-Poppinsss text-center xl:text-left lg:text-left text-gray-700">
+                                        Discuss tasks Share documents
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section>
-                <div class="bg-slate-500">
-                    <div>hello</div>
-                    <div>hello</div>
+                <div class="bg-white px-2 xl:px-0 lg:px-0">
+                    <table>
+                        <tbody>
+                            <tr v-for="items in arr" :key="items.id">
+                                <div class="xl:px-32 lg:px-24 md:px-24 py-4">
+                                    <div class="xl:px-20 lg:px-20 md:px-10">
+                                        <div
+                                            class="shadow-project-card grid xl:grid-cols-12 lg:grid-cols-12 md:grid-cols-12 p-4 bg-white h-auto rounded-3xl">
+                                            <div class="xl:col-span-6 lg:col-span-6 md:col-span-12 flex items-center">
+                                                <div>
+                                                    <img src="../../assets/school.png" alt=""
+                                                        class="rounded-xl border shadow">
+                                                </div>
+                                            </div>
+                                            <div class="xl:col-span-6 lg:col-span-6 md:col-span-12 h-full w-full">
+                                                <div class="px-4 text-center h-full w-full flex flex-col justify-between">
+                                                    <div class="w-full">
+                                                        <div
+                                                            class="font-Poppinsss capitalize pt-4 xl:pt-0 lg:pt-0 xl:text-xl lg:text-lg text-gray-700">
+                                                            Mother of Peace (DECEMBER 2023)
+                                                        </div>
+                                                        <p class="text-gray-500 text-lg font-NunitoSans ">
+                                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                                                            magnam error perspiciatis maxime accusamus animi, nesciunt
+                                                            molestiae neque accusantium earum fugit, repellendus quae
+                                                            voluptatibus culpa voluptate suscipit vel quo quis!
+                                                        </p>
+                                                    </div>
+                                                    <div>
+                                                        <div class="flex justify-center gap-4 py-2 xl:py-0 lg:py-0">
+                                                            <span
+                                                                class="border-2 rounded-lg px-4 py-2 font-NunitoSans font-semibold">Laravel</span>
+                                                            <span
+                                                                class="border-2 rounded-lg px-4 py-2 font-NunitoSans font-semibold">Vue</span>
+                                                            <span
+                                                                class="border-2 rounded-lg px-4 py-2 font-NunitoSans font-semibold">Quasar</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-            </section> -->
+            </section>
         </main>
     </div>
 </template>
 <script setup>
+import { ref } from "vue";
+
+const arr = ref([
+    { id: 1, name: 'hello' },
+    { id: 2, name: 'hello2' },
+    { id: 3, name: 'hello2' },
+])
 </script>
 <style scoped>
+.shadow-project-card {
+    box-shadow: rgba(14, 30, 37, 0.1) 0px 2px 4px 0px, rgba(14, 30, 37, 0.1) 0px 2px 16px 0px;
+}
+
+.photo-header {
+    width: 20rem;
+    height: 20rem;
+    border: 3px solid #606c38;
+    animation: morphing 18s infinite ease-in-out;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+@keyframes morphing {
+    0% {
+        border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+
+    25% {
+        border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+    }
+
+    50% {
+        border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+    }
+
+    75% {
+        border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+    }
+}
+
 .bg-animation {
-    background-image: url('');
+    background-image: url("");
 }
 </style>

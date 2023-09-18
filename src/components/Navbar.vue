@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="px-4 py-6 border-2 z-10 bg-white shadow w-full fixed  xl:px-32 lg:px-24 md:px-24">
+        <div class="px-4 py-5 border-2 z-10 bg-white shadow w-full fixed  xl:px-32 lg:px-24 md:px-24">
             <div class="flex justify-between items-center">
                 <div class="flex items-center gap-2">
                     <div class="text-xl  font-Poppinsss font-bold text-gray-800">
@@ -14,7 +14,7 @@
                             Home</div>
                         <div
                             class="font-NunitoSans font-bold text-gray-800 text-lg transition ease-out duration-300 hover:text-blue-600 cursor-pointer">
-                            About</div>
+                            Profile</div>
                         <div
                             class="font-NunitoSans font-bold text-gray-800 text-lg transition ease-out duration-300 hover:text-blue-600 cursor-pointer">
                             Project</div>
@@ -38,7 +38,7 @@
                             <label for="my-drawer" class="drawer-overlay"></label>
                             <ul class="menu p-4 w-60 min-h-full bg-base-200 text-lg text-base-content">
                                 <li class="flex justify-center"><a class="text-xl font-NunitoSans">Home</a></li>
-                                <li class="flex justify-center"><a class="text-xl font-NunitoSans">About</a></li>
+                                <li class="flex justify-center"><a class="text-xl font-NunitoSans">Profile</a></li>
                                 <li class="flex justify-center"><a class="text-xl font-NunitoSans">Project</a></li>
                                 <li class="flex justify-center"><a class="text-xl font-NunitoSans">Contact</a></li>
                             </ul>
